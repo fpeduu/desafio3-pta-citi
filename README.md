@@ -10,5 +10,5 @@ Temas de cores disponíves no site:
 ### Tema branco
 ![alt text](assets/white-theme.png)
 
-### Tema preto
+### Tema cinza
 ![alt text](assets/gray-theme.png)
