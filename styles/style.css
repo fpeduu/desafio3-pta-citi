@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #292929;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 5vh;
+    height: 3.8rem;
+}
+
+.color-changer {
+    
+    padding: .3rem 6rem;
+    background: #E5E5E5;
+    border: 3px solid #51E678;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 19rem;
+}
+
+.color-changer p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+
+    color: rgba(41, 41, 41, 0.8);
+}
+
+.color-changer h1 {
+    font-weight: 800;
+    font-size: 2.7rem;
+    line-height: 3.2rem;
+    text-align: center;
+
+    color: #292929;
+}
+
+.color-changer #button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #51E678;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: none;
+
+    height: 3rem;
+    width: 17rem;
+    
+    margin-top: .5rem;
+
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    color: #292929;
+}
+
+.color-changer #button:hover {
+    background-color: #40b45f;
+    cursor: pointer;
+}
